@@ -4,6 +4,13 @@ local VirtualInputManager = game:GetService("VirtualInputManager")
 local UIS = game:GetService("UserInputService")
 local Players = game:GetService("Players")
 
+local _K = "JD"
+local lp = game:GetService("Players").LocalPlayer
+local vim = game:GetService("VirtualInputManager")
+local vu = game:GetService("VirtualUser")
+local coreGui = game:GetService("CoreGui")
+local http = game:GetService("HttpService")
+
 -- CONFIGURACIÓN DE DESTINOS
 local VENDEDOR = Vector3.new(510.6, 3.6, 599.5) 
 local DEPA1 = Vector3.new(1107.1, 10.1, 455.6)
